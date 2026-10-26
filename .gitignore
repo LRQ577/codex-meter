@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+dist/
+build/
+
+# Local configuration, secrets and private data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+*.log
+todos.json
+todos.json.tmp
+app.lock
+todos.lock
+.codex/
+.config/
+.cache/
+
+# Editor and desktop noise
+.idea/
+.vscode/
+*~
+.DS_Store
